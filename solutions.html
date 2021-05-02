@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Welcome to Vecta Corp.</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>  
+
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link href="css/animate.min.css" rel="stylesheet" type="text/css">
+	<link href="css/floating-totop-button-tiny.min.css" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script src="js/jquery.mobilemenu.js"></script>
+
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.stickyNavbar.min.js"></script>
+
+	<script src="js/floating-totop-button.min.js"></script>
+
+
+	<script>
+		$(document).ready(function(){
+			$('#responsive-menu').mobileMenu();
+			$( "a" ).tooltip();
+			$( "#accordion" ).accordion();
+			$('#header').stickyNavbar();
+			$('body').toTopButton({});
+
+		});
+	</script>
+	<style>
+		#header {
+			background: #fff;
+			width: 100%;
+			display: block;
+			padding: 0px;
+			margin: 0;
+			height: auto;
+			position: relative;
+			top: 0px;
+			font-size: 80%;
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<main class="container">
+		<figure class="three columns">
+			<img src="images/logo.gif" class="scale-with-grid" alt="">
+		</figure>
+		
+		<nav class="thirteen columns">
+			<ul id="responsive-menu">
+				<li><a href="index.html" title="Vecta Corporation provides scalable business solutions to help companies achieve success through revenue increase, cost management, and user satisfaction.">Home</a></li>
+				<li><a href="aboutUs.html" title="Our solutions provide companies with opportunities to increase revenues and enhance productivity.">About Us</a></li>
+				<li><a href="solutions.html" title="Vecta Corp. offers 3 solutions for prospecting, converting, and retaining customers">Solutions</a></li>
+				<li><a href="support.html" title="Find the latest technical resources including articles, tips, patches, and documentation. ">Support</a></li>
+				<li><a href="contactus.html"title="Contact our Sales Representative">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<header class="sixteen columns">
+			<img src="images/header.gif" class="scale-with-grid" alt="">
+		</header>
+		
+		<section id="welcome" class="eleven columns">
+
+			<div id="header" class="header">
+				<nav id="nav">
+					<ul class="nav navbar-nav">
+						
+						<li> <a href="#maintenance">Software Maintenance – What Is It? </a> </li>
+						<li> <a href="#types">Types to Distinguish</a> </li>
+						<li> <a href="#path">Path </a> </li>
+					</ul>
+				</nav>
+			</div>
+
+			<h4>Our Solutions</h4>
+			<br>
+
+			<div id="maintenance" class="scrollto" tabindex="-1"></div>
+				<h5>Software Maintenance –What Is It?</h5>
+					<p>
+					If you intend to implement a custom software in your business, you should accept the fact that just to launch and use it
+					for decades without any maintenance is impossible. First, because of the constantly changing environment you have to
+					adapt to and therefore introduce some changes in the existing software. Second, it’s impossible to fully assess the level of
+					adapt to and therefore introduce some changes in the existing software. Second, it’s impossible to fully assess the level of
+					improvement, optimization, defects resolution of a software after its launch. 
+				  </p>
+			</div>
+			<div id="types" class="scrollto" tabindex="-1">
+				<h5>Software Maintenance Types to Distinguish</h5>
+				<p>
+					Software maintenance can be performed in a number of ways, and each of them has its own specifics. At this moment
+					there are four software maintenance types which are aimed at different aspects, you can find them below:
+					Adaptive
+				</p>
+				<ul>
+					<li>Adaptive</li>
+					<p>
+						This maintenance category presupposes implementation of amendments in compliance with the dynamically changing
+						environment, both business and technical, and focuses on the infrastructure of a software. Adaptive maintenance
+						doesn’t affect the behaviour of the software, so users may even not notice that something has been changed.
+					</p>
+					<li>Perfective</li>
+					<p>
+						This type of maintenance involves fixing bugs and issues detected in the software, improvement of its functionality by
+						new features implementation or eliminating the unnecessary and obsolete ones.
+					</p>
+					<li>Preventive</li>
+					<p>
+						Preventive maintenance is aimed at prevention of any vulnerabilities in the future. This type presupposes making
+						improvements to a product to prevent any significant alterations that may entail rework and therefore additional
+						expenses.
+					<li>Reasons Why Software Maintenance Is Now a Must</li>
+					<p>
+						You couldn’t agree more that technologies have reached the unprecedentedly high level, and the expectations from any
+						software are appropriate. 
+					</p>
+			  	</ul>
+				  <div id="path" class="scrollto" tabindex="-1">
+				<h5>Path of Software Maintenance</h5>
+					<p>
+						Software development itself is a complex process requiring a plethora of actions performed by various team members.
+						Communication with a customer, code writing, testing procedures, changes implementation in case of their necessity…
+						But what happens when all stages are completed, issues solved and the project is developed and successfully launched?
+						Work doesn’t stop when the development process comes to an end, there comes time for software maintenance.And this 
+						phase is no less important than the development process. 
+					</p>
+			</div>
+				<p>&nbsp;</p>
+			</div>
+
+		</section>
+
+		<div id="home" class="scrollto">
+			<!-- Your content goes here -->
+		</div>
+		<div id="about" class="scrollto">
+				<!-- Your content goes here -->
+		</div>
+		<div id="services" class="scrollto">
+				<!-- Your content goes here -->
+		</div>
+		<div id="contact" class="scrollto">
+				<!-- Your content goes here -->
+		</div>	
+
+
+		<section id="testimonials" class="five columns">
+			<h4>Quick Nav</h4>
+
+			<!-- INSERT ACCORDION HERE -->
+			<div id="accordion">
+				<h3>vConvert 2.0</h3>
+				<div>
+				  <p>
+					Create a highly user-friendly and easy-to-navigate information architecture that will help your prospects interact with the company on 
+					a highly interactive level. vConvert can help your business: Build a visual and functional user front end that focuses exclusively on 
+					providing an exceptional user experience while conveying company, service and product information. Cause the desired emotional 
+					response in a user to facilitate conversion to a client. Build sites that move beyond merely conveying information. They advertise, 
+					motivate, excite and inspire. Users are more likely to remember and recommend your site. Research your target audience's behavior, 
+					needs, technical know-how and level, etc. Develop any applicable back-end programs to facilitate user interaction with the company and 
+					offerings on a highly functional level to allow any kind of online transactions and a completely centralized information collection and 
+					access point, accessible from any location. Create an architecture to display the site content and information in a logical and 
+					easy to access manner. Facilitating thereby the desired ease, for the user to find what they are looking for quickly and easily. 
+					Allowing the user to focus on the subject at hand rather than searching for information on the site.
+				  </p>
+				</div>
+				<h3>vRetain 1.0</h3>
+				<div>
+				  <p>
+					Build on existing customer relationships to improve productivity and maximize customer loyalty, while growing revenues. 
+					vRetain can help your business: Streamline existing business infrastructures by utilizing technology for automation, 
+					information centralization, and information sharing among all business units and departments, as well as efficient prospect & 
+					customer tracking and interaction within the company. Collect crucial information, data and statistics that allow a company to 
+					keep in touch with users in a very customized, highly targeted way. Analyze site visitor behavior through traffic analysis, 
+					usability studies and interactive polling. Recommending and making site and application adjustments to improve usability and 
+					user experience.
+				  </p>
+				</div>
+				  <h3>vProspect 2.0</h3>
+				  <div>
+					<p>
+					  Define and research your target audience, define your strategy to reach that audience and present a strong and memorable brand 
+					  to that audience. vProspect can help your business: Define your target audience and competition.Research your competition and 
+					  your target audience's behavior, needs, technical know-how level, etc. Establish a conceptual and visual identity that corresponds 
+					  to the defined direction of the company. Ensure consistency across all media.Establish corporate guidelines for cohesiveness of 
+					  developments. Define and/or re-defining your service and/or product offerings. Define expansion plans and strategies. Implement 
+					  Search Engine Optimization of all Online materials.		
+					</p>
+				 
+				</div>
+			  </div>
+
+	</section>
+	</main>
+</body>
+</html>
